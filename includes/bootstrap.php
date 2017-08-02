@@ -116,7 +116,7 @@ require dirname( __FILE__ ) . '/spy-rest-server.php';
  * If WP_TESTS_FORCE_KNOWN_BUGS is already set in wp-tests-config.php, then
  * how you call phpunit has no effect.
  */
-class WP_PHPUnit_Util_Getopt extends PHPUnit_Util_Getopt {
+class WP_PHPUnit_Util_Getopt extends PHPUnit\Util\Getopt {
     protected $longOptions = array(
       'exclude-group=',
       'group=',
